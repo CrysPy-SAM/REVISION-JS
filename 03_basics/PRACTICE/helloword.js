@@ -84,13 +84,39 @@
 //revere an STRING
 
 
-function reverse(SATYAM){
-    let Result = "";
-    for( let i=SATYAM.length-1; i>=0; i--){
-        Result = Result+SATYAM[i];
-    }
-    return Result;
-}
+// function reverse(SATYAM){
+//     let Result = "";
+//     for( let i=SATYAM.length-1; i>=0; i--){
+//         Result = Result+SATYAM[i];
+//     }
+//     return Result;
+// }
 
-console.log(reverse("Priyesh"));
+// console.log(reverse("Priyesh"));
 
+
+// Write a function that converts Celsius to Fahrenheit.
+
+// function convert(celceus){
+//     let Fahrenheit = (celceus * 9/5) + 32;
+//     return Fahrenheit
+// }
+// console.log(convert(1));
+
+
+
+// Write a function that checks if a number is prime.
+
+// function Check(value) {
+//     if (value <= 1) {
+//         return "Not Prime Number";
+//     }
+//     for (let i = 2; i < value; i++) {
+//         if (value % i === 0) {
+//             return "Not Prime Number";
+//         }
+//     }
+//     return "Prime Number";
+// }
+
+// console.log(Check(30)); 
