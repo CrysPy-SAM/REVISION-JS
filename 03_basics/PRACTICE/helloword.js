@@ -154,8 +154,17 @@
 
 // Write a function that returns the length of a given string.
 
-function lengthofStr(str){
-    return str.length;
-}
+// function lengthofStr(str){
+//     return str.length;
+// }
 
-console.log(lengthofStr("SATYAM"));
+// console.log(lengthofStr("SATYAM"));
+
+
+// Write a function to convert a number into a string.
+
+// function NumToStr(value) {
+//     return value.toString();  
+// }
+
+// console.log(NumToStr(43434345));
