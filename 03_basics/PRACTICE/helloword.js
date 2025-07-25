@@ -84,13 +84,21 @@
 //revere an STRING
 
 
-function reverse(SATYAM){
-    let Result = "";
-    for( let i=SATYAM.length-1; i>=0; i--){
-        Result = Result+SATYAM[i];
-    }
-    return Result;
+// function reverse(SATYAM){
+//     let Result = "";
+//     for( let i=SATYAM.length-1; i>=0; i--){
+//         Result = Result+SATYAM[i];
+//     }
+//     return Result;
+// }
+
+// console.log(reverse("Priyesh"));
+
+
+// Write a function that converts Celsius to Fahrenheit.
+
+function convert(celceus){
+    let Fahrenheit = (celceus * 9/5) + 32;
+    return Fahrenheit
 }
-
-console.log(reverse("Priyesh"));
-
+console.log(convert(1));
