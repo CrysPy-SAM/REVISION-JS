@@ -135,16 +135,27 @@
 // Write a function that finds the largest number in an array
 
 
-function findLargest(arr) {
-    let max = arr[0];
+// function findLargest(arr) {
+//     let max = arr[0];
 
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
-        }
-    }
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
 
-    return max;
+//     return max;
+// }
+
+// console.log(findLargest([3, 7, 2, 9, 4]));  
+
+
+
+
+// Write a function that returns the length of a given string.
+
+function lengthofStr(str){
+    return str.length;
 }
 
-console.log(findLargest([3, 7, 2, 9, 4]));  
+console.log(lengthofStr("SATYAM"));
