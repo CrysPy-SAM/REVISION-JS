@@ -120,3 +120,51 @@
 // }
 
 // console.log(Check(30)); 
+
+
+
+// Write a function that returns the sum of all numbers from 1 to n
+
+// function sumUpTo(n) {
+//     return (n * (n + 1)) / 2;
+// }
+
+// console.log(sumUpTo(5));
+
+
+// Write a function that finds the largest number in an array
+
+
+// function findLargest(arr) {
+//     let max = arr[0];
+
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     }
+
+//     return max;
+// }
+
+// console.log(findLargest([3, 7, 2, 9, 4]));  
+
+
+
+
+// Write a function that returns the length of a given string.
+
+// function lengthofStr(str){
+//     return str.length;
+// }
+
+// console.log(lengthofStr("SATYAM"));
+
+
+// Write a function to convert a number into a string.
+
+// function NumToStr(value) {
+//     return value.toString();  
+// }
+
+// console.log(NumToStr(43434345));
